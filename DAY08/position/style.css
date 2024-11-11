@@ -1,0 +1,27 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+#static{
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+#relative{
+    position:relative ;
+    top: 100px;
+    left: 100px;
+    background-color: yellowgreen;
+}
+#Absolute{
+    position:relative ;
+    top: 100px;
+    left: 100px;
+    background-color: red;
+}
